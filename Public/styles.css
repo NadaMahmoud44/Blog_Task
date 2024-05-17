@@ -1,0 +1,112 @@
+/* Existing styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #101820;
+    color: #FEE715;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #FEE715;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #101820;
+    margin-bottom: 40px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.post {
+    background-color: #101820;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.post:hover {
+    transform: translateY(-5px);
+}
+
+.post h2 {
+    color: #FEE715;
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.post p {
+    color: #FEE715;
+    margin-bottom: 15px;
+}
+
+.post-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-actions a {
+    color: #FEE715;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    padding: 8px 16px;
+    border: 2px solid #FEE715;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.post-actions a:hover {
+    background-color: #FEE715;
+    color: #101820;
+}
+
+.add-post-btn {
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    padding: 15px 20px;
+    background-color: #101820;
+    color: #FEE715;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 50px;
+    border: 2px solid #FEE715;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.add-post-btn:hover {
+    background-color: #FEE715;
+    color: #101820;
+}
+
+label {
+    color: black;
+    font-size: 20px; /* Adjust font size for better visibility */
+    margin-bottom: 5px; /* Add margin bottom for spacing */
+    display: block; /* Make labels block-level elements for better alignment */
+}
+
+/* New styles for edit and delete links */
+.post-actions .edit-delete-links {
+    display: none;
+}
+
+.post:hover .edit-delete-links {
+    display: inline;
+}
+
