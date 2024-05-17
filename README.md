@@ -12,7 +12,7 @@
 
 ## Project Overview
 
-This project is a simple blog application that allows users to add, edit, view, and delete blog posts. The application is built using PHP and MySQL, with a clean and responsive user interface.
+This project is a simple blog application developed as part of a task for Amasi Tech. It allows users to add, edit, view, and delete blog posts. The application is built using PHP and MySQL, with a clean and responsive user interface.
 
 ## Features
 
